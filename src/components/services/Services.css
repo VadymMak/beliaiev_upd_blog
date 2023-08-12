@@ -1,0 +1,10 @@
+.services {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+}
+.services-title h1 {
+  color: #fff;
+  text-align: center;
+  margin: 52px auto 96px;
+}
