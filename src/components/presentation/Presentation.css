@@ -1,0 +1,19 @@
+.presentation {
+  margin: 0 auto;
+  max-width: 1500px;
+  height: 400px;
+  margin-top: -80px;
+  background-image: url(../../../public/images/img-10.jpg);
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.presentation-title {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
