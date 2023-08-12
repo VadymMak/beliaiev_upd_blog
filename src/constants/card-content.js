@@ -1,9 +1,9 @@
-import happy_wooman from "../assets/images/happy_woman_1400.png?raw=true";
-import hands_shaking from "../assets/images/handshaking_resized_1400.png?raw=true";
-import passports from "../assets/images/documents_1400.png?raw=true";
-import happy_woman_sm from "../assets/images/happy_woman_small.png?raw=true";
-import hand_shaking_sm from "../assets/images/handshaking_resized_small.png?raw=true";
-import passports_sm from "../assets/images/documents_small.png?raw=true";
+import happy_wooman from "../assets/card-images/happy_woman_1400.png";
+import hands_shaking from "../assets/card-images/handshaking_1400.png?raw=true";
+import passports from "../assets/card-images/documents_1400.png?raw=true";
+import happy_woman_sm from "../assets/card-images/happy_woman_small.png?raw=true";
+import hand_shaking_sm from "../assets/card-images/handshaking_small.png?raw=true";
+import passports_sm from "../assets/card-images/documents_small.png?raw=true";
 import { localization } from "./localization";
 
 export const card = [

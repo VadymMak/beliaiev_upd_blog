@@ -28,11 +28,11 @@ function Header() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <div className="navbar-logo" onClick={closeMobileMenu}>
             NIKOLAY BIELIAEV
-            {/* <i className="fab fa-typo3" /> */}
-            <span>tel: +38(095)4066250</span>
-          </Link>
+            <a href="tel:+380954066250">tel: +38(095)4066250</a>
+          </div>
+
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

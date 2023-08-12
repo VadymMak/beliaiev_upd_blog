@@ -1,0 +1,38 @@
+.personal {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personal-header {
+  width: 100%;
+}
+
+.personal-header img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.personal-description__title h1 {
+  text-align: center;
+  margin: 24px auto 36px;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 900px) {
+  .personal-description__title h1 {
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 560px) {
+  .personal-description__title h1 {
+    text-align: center;
+    margin: 12px auto 12px;
+  }
+}
